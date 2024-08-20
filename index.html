@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodeio Food Park - Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./imagens/png-transparent-cowboy-bull-silhouette-rodeo-bronco-cow-riding-sports-cattle-animal-thumbnail-removebg-preview.png" class="ifood-logo" alt="Logo iFood">
+            <h1>Rodeio Food Park</h1>
+            <nav>
+                <ul>
+                    <li><a href="#pizzas">Pizzas</a></li>
+                    <li><a href="#lanches">Hambúrgueres</a></li>
+                    <li><a href="#sobremesas">Sobremesas</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#alcool">Bebidas Alcoólicas</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <button id="cart-button">Carrinho (<span id="cart-count">0</span>)</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Pizzas -->
+        <section id="pizzas" class="menu-section">
+            <h2>Pizzas</h2>
+            <div class="menu-item">
+                <img src="https://s2-receitas.glbimg.com/RL-dN3YlvejAXwiPYoguGlE2p_0=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/C/H/HXf1trQZGtIylAzO2SUg/pizza-margherita-receita.jpg" alt="Pizza Margherita">
+                <div class="item-info">
+                    <h3>Pizza Margherita</h3>
+                    <p>Molho de tomate, mussarela, manjericão.</p>
+                    <p>R$ 30,00</p>
+                    <button class="add-to-cart" data-name="Pizza Margherita" data-price="30.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://static.baratocoletivo.com.br/2018/0817/oferta_15345349963183_OFERTA.jpg" alt="Pizza Calabresa">
+                <div class="item-info">
+                    <h3>Pizza Calabresa</h3>
+                    <p>Molho de tomate, mussarela, calabresa, cebola e azeitonas.</p>
+                    <p>R$ 35,00</p>
+                    <button class="add-to-cart" data-name="Pizza Calabresa" data-price="35.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://redefoodservice.com.br/wp-content/uploads/2023/07/Pizza-Quatro-Queijos.jpg" alt="Pizza Quatro Queijos" alt="Pizza Frango com Catupiry" alt="Pizza Portuguesa">
+                <div class="item-info">
+                    <h3>Pizza Portuguesa</h3>
+                    <p>Molho de tomate, mussarela, presunto, ovos, cebola e azeitonas.</p>
+                    <p>R$ 40,00</p>
+                    <button class="add-to-cart" data-name="Pizza Portuguesa" data-price="40.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.sabornamesa.com.br/media/k2/items/cache/ada34cd2101afafaba465aad112ee3c1_XL.jpg" alt="Pizza Frango com Catupiry" alt="Pizza de Frango com Catupiry">
+                <div class="item-info">
+                    <h3>Pizza de Frango com Catupiry</h3>
+                    <p>Frango desfiado, catupiry e molho branco.</p>
+                    <p>R$ 37,00</p>
+                    <button class="add-to-cart" data-name="Pizza de Frango com Catupiry" data-price="37.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Hambúrgueres -->
+        <section id="lanches" class="menu-section">
+            <h2>Hambúrgueres</h2>
+            <div class="menu-item">
+                <img src="https://s2-redeglobo.glbimg.com/INkwGKIAZrAzxROUSBLi3Glg3z4=/0x0:5760x3840/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/k/g/ynd0wcTqGd2FEg4msKTg/ogmojk0.jpg" alt="Hambúrguer Simples">
+                <div class="item-info">
+                    <h3>Hambúrguer Simples</h3>
+                    <p>Carne, queijo, alface, tomate e maionese.</p>
+                    <p>R$ 20,00</p>
+                    <button class="add-to-cart" data-name="Hambúrguer Simples" data-price="20.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://conteudo.imguol.com.br/c/entretenimento/05/2022/11/03/smash-duplo-supreme-do-pa-1667487357987_v2_900x506.png" alt="Cheeseburger">
+                <div class="item-info">
+                    <h3>Cheeseburger</h3>
+                    <p>Carne, queijo cheddar, bacon, alface e molho especial.</p>
+                    <p>R$ 25,00</p>
+                    <button class="add-to-cart" data-name="Cheeseburger" data-price="25.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.comidaereceitas.com.br/wp-content/uploads/2020/08/hamburguer_bacon.jpg" alt="Burguer com Batata">
+                <div class="item-info">
+                    <h3>Burguer com Batata</h3>
+                    <p>Carne, queijo, cebola caramelizada e batata frita.</p>
+                    <p>R$ 28,00</p>
+                    <button class="add-to-cart" data-name="Burguer com Batata" data-price="28.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://s2.glbimg.com/fBiB3TLGUkDC-cO3Oz2NT9xM8xo=/smart/e.glbimg.com/og/ed/f/original/2016/06/09/hamburguer_vegetariano_madero_-_jpg.jpg" alt="Hambúrguer BBQ">
+                <div class="item-info">
+                    <h3>Hambúrguer BBQ</h3>
+                    <p>Carne, queijo, bacon, cebola roxa e molho barbecue.</p>
+                    <p>R$ 27,00</p>
+                    <button class="add-to-cart" data-name="Hambúrguer BBQ" data-price="27.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobremesas -->
+        <section id="sobremesas" class="menu-section">
+            <h2>Sobremesas</h2>
+            <div class="menu-item">
+                <img src="https://www.receiteria.com.br/wp-content/uploads/tiramisu-facil-01.jpg" alt="Tiramisu">
+                <div class="item-info">
+                    <h3>Tiramisu</h3>
+                    <p>Camadas de café e mascarpone.</p>
+                    <p>R$ 15,00</p>
+                    <button class="add-to-cart" data-name="Tiramisu" data-price="15.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://amorpelacomida.com.br/wp-content/uploads/2017/07/receita-brownie-vegano-funcional-sem-gluten-sem-lactose-facil-e-saboroso.jpg" alt="Brownie Vegano">
+                <div class="item-info">
+                    <h3>Brownie Vegano</h3>
+                    <p>Brownie feito com ingredientes veganos e chocolate amargo.</p>
+                    <p>R$ 12,00</p>
+                    <button class="add-to-cart" data-name="Brownie Vegano" data-price="12.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/8fafc3935c766bf8c9f1331a325e48a9.jpg?itok=qsQFIVyp" alt="Cheesecake">
+                <div class="item-info">
+                    <h3>Cheesecake</h3>
+                    <p>Deliciosa cheesecake com cobertura de frutas vermelhas.</p>
+                    <p>R$ 18,00</p>
+                    <button class="add-to-cart" data-name="Cheesecake" data-price="18.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="data:image/jpeg;base64,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" alt="Pudim">
+                <div class="item-info">
+                    <h3>Pudim</h3>
+                    <p>Pudim de leite condensado com calda de caramelo.</p>
+                    <p>R$ 14,00</p>
+                    <button class="add-to-cart" data-name="Pudim" data-price="14.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Bebidas -->
+        <section id="bebidas" class="menu-section">
+            <h2>Bebidas</h2>
+            <div class="menu-item">
+                <img src="https://thumbs.dreamstime.com/b/coca-cola-fanta-latas-do-sprite-22068969.jpg" alt="Refrigerante">
+                <div class="item-info">
+                    <h3>Refrigerante</h3>
+                    <p>Coca-Cola, Sprite, Fanta.</p>
+                    <p>R$ 5,00</p>
+                    <button class="add-to-cart" data-name="Refrigerante" data-price="5.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="data:image/jpeg;base64,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" alt="Pepsi">
+                <div class="item-info">
+                    <h3>Pepsi</h3>
+                    <p>Pepsi, sabor refrescante.</p>
+                    <p>R$ 5,00</p>
+                    <button class="add-to-cart" data-name="Pepsi" data-price="5.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://dcdn.mitiendanube.com/stores/002/905/426/products/energetico-red-bull-250ml-95612-dfe8b0ad3fe36010d616970411024105-640-0.jpg" alt="Red Bull">
+                <div class="item-info">
+                    <h3>Red Bull</h3>
+                    <p>Energia em lata.</p>
+                    <p>R$ 8,00</p>
+                    <button class="add-to-cart" data-name="Red Bull" data-price="8.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://toninstr.blob.core.windows.net/product/17151-agua-mineral-crystal-500-ml-sgas-g.jpg" alt="Água Mineral">
+                <div class="item-info">
+                    <h3>Água Mineral</h3>
+                    <p>Água mineral sem gás.</p>
+                    <p>R$ 3,00</p>
+                    <button class="add-to-cart" data-name="Água Mineral" data-price="3.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Bebidas Alcoólicas -->
+        <section id="alcool" class="menu-section">
+            <h2>Bebidas Alcoólicas</h2>
+            <div class="menu-item">
+                <img src="https://104fm.net.br/hf-conteudo/uploads/posts/2023/06/6981_cervejas-long-neck-jpg.jpg" alt="Cerveja">
+                <div class="item-info">
+                    <h3>Cerveja</h3>
+                    <p>Escolha entre diversas marcas.</p>
+                    <p>R$ 10,00</p>
+                    <button class="add-to-cart" data-name="Cerveja" data-price="10.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://cdn.awsli.com.br/600x450/1231/1231345/produto/257050016/vinho-tinto-quinta-do-morgado-750-ml-094ec0a4-e3mn5u4rzi.png" alt="Vinho Tinto">
+                <div class="item-info">
+                    <h3>Vinho Tinto</h3>
+                    <p>Vinho tinto seco.</p>
+                    <p>R$ 45,00</p>
+                    <button class="add-to-cart" data-name="Vinho Tinto" data-price="45.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.tcdn.com.br/img/img_prod/774261/whisky_johnnie_walker_red_label_500ml_1010_1_36aad7fe984c0463f4ca9abc85cf14aa.jpg" alt="Whisky">
+                <div class="item-info">
+                    <h3>Whisky</h3>
+                    <p>Whisky de malte, 700ml.</p>
+                    <p>R$ 70,00</p>
+                    <button class="add-to-cart" data-name="Whisky" data-price="70.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="https://cdn.dooca.store/33560/products/veuve-clicquot-brut_450x600+fill_ffffff.png?v=1655251223&webp=0" alt="Champagne">
+                <div class="item-info">
+                    <h3>Champagne</h3>
+                    <p>Champagne brut.</p>
+                    <p>R$ 100,00</p>
+                    <button class="add-to-cart" data-name="Champagne" data-price="100.00">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rodeio Food Park | <a href="mailto:contato@rodeiofoodpark.com.br">contato@rodeiofoodpark.com.br</a></p>
+            <p><a href="https://maps.google.com" target="_blank">Veja nossa localização</a></p>
+        </div>
+    </footer>
+
+    <!-- Modal do Carrinho -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Seu Carrinho</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total">
+                <p>Total: R$ <span id="total-price">0.00</span></p>
+            </div>
+            <button id="checkout-button">Finalizar Compra</button>
+        </div>
+    </div>
+
+</body>
+</html>
